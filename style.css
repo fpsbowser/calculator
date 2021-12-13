@@ -1,3 +1,44 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #808b96;
+    width: 373px;
+    align-items: center;
+}
+
+.display {
+    display: flex;
     background-color: #f4f4f4;
+    margin-top: 50px;
+    font-size: 62px;
+    width: 371px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    border: black 1px solid;
+}
+
+#one-btn, #two-btn, #three-btn, #four-btn, #five-btn, #six-btn,
+#seven-btn, #eight-btn, #nine-btn, #zero-btn {
+    background-color: goldenrod;
+    width: 93px;
+    height: 93px;
+    border: black 1px solid;
+
+}
+
+#clear-btn, #equals-btn, #divide-btn, #multiply-btn,
+#subtract-btn, #addition-btn {
+    background-color: burlywood;
+    width: 93px;
+    height: 93px;
+    border: black 1px solid;
 }

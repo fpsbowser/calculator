@@ -2,26 +2,24 @@
 function addition(num1, num2) {
     let sum = num1 + num2;
     console.log(sum);
-    return sum;
 }
 
 // Subtract function
 function subtract(num1, num2) {
-    console.log(num1, num2);
     let subtractValue = num1 - num2;
-    return subtractValue;
+    console.log(subtractValue);
 }
 
 // Multiply function
 function multiply(num1, num2) {
     let multiplyValue = num1 * num2;
-    return multiplyValue;
+    console.log(multiplyValue);
 }
 
 // Divide function
 function divide(num1, num2) {
     let divideValue = num1 / num2;
-    return divideValue;
+    console.log(divideValue);
 }
 
 // Operate function
@@ -35,6 +33,11 @@ function operate(number1, operator, number2) {
     } else if (operator == '/') {
         divide(number1, number2);
     } else {
-        'Invalid operator!'
+        console.log('Invalid operator!');
     }
 }
+
+operate(5,'+',4);
+operate(5,'-',4);
+operate(5,'*',4);
+operate(6,'/',3);

@@ -17,6 +17,10 @@ body {
 .display {
     display: flex;
     background-color: #f4f4f4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 371px;
     margin-top: 50px;
     font-size: 62px;
     width: 371px;

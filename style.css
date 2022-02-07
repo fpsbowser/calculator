@@ -3,10 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
     background-color: rgb(124, 124, 124);
-=======
->>>>>>> 1f36f1eff7844465301ea197cfdc237b2b96f5d6
 }
 
 .button-container {

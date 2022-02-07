@@ -8,9 +8,6 @@ let operatorValue = '';
 let solution = '';
 let shouldReset = false;
 let equalsPressed = false;
-let firstValue = 0;
-let operatorValue = '';
-let solution = '';
 
 // Event Listener for all calculator buttons
 let button = document.querySelector('.button-container');
@@ -85,7 +82,7 @@ button.addEventListener('click', (e) => {
             shouldReset = false;
             displayValue.textContent += e.target.textContent;
     }
-});
+})
 
     /* FUNCTIONS */
 
@@ -94,8 +91,6 @@ function addition(num1, num2) {
     let sum = Number(num1) + Number(num2);
     displayValue.textContent = `${sum}`;
     value = sum;
-    console.log(sum);
-    displayValue.textContent = `${sum}`;
 }
 
 // Subtract function
@@ -106,8 +101,6 @@ function subtract(num1, num2) {
     }
     displayValue.textContent = `${subtractValue}`;
     value = subtractValue;
-    console.log(subtractValue);
-    displayValue.textContent = `${subtractValue}`;
 }
 
 // Multiply function
